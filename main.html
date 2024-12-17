@@ -7,11 +7,12 @@
 </head>
 
 <body>
+	<form method="post">
 	 <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" id="name" required>
 
 	 <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Email" name="email" required>
+    <input type="text" placeholder="Email" id="email" required>
     <label for="gender_m">Gender</label>
 	<input type="radio" id="gender_m" name="gender" required>
 	<label for="gender_f">Gender</label>
@@ -25,11 +26,13 @@
 	<label for="age">Age</label>
 	<input type="Number" id="age"  required>
     <label for="dob">Date of Birth</label>
+	<input type="date" id="dob" required>
     <label for="password">Password</label>
 	<input type="Password" id="password" required>
 	<label for="portfolio">Portfolio URL:</label>
     <input type="url" id="portfolio" name="portfolio">
 	<button type="submit">Submit</button>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
