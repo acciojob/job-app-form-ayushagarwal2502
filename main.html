@@ -12,23 +12,24 @@
 
 	 <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Email" name="email" required>
-    <label>Gender</label>
-	<input type="radio" id="gender_m"required>
-	<input type="radio" id="gender_f"required>
-	<select>
-		<option>volvo</option>
-		<option>wolkahgs</option>
+    <label for="gender_m">Gender</label>
+	<input type="radio" id="gender_m" name="gender" required>
+	<label for="gender_f">Gender</label>
+	<input type="radio" id="gender_f" name="gender" required>
+	<label for="laptop">Laptop Brands</label>
+	<select id="laptop">
+		<option>apple</option>
+		<option>Asus</option>
+		<option>HP</option>
 	</select>
 	<label for="age">Age</label>
-	<input type="Number" id="age" placeholder="Age" required>
-    <label for="dob">DOB</label>
-	<input type="Date" id="dob"required>
-    <label for="tel">Phone Number</label>
-	<input type="Tel" id="tel" placeholder="xxx-xxx-xxxx">
+	<input type="Number" id="age"  required>
+    <label for="dob">Date of Birth</label>
     <label for="password">Password</label>
-	<input type="Password" id="password" placeholder="Password" required>
-	<label for="tos">I agree to the TOS</label>
-	<input type="Checkbox" id="tos"required>
+	<input type="Password" id="password" required>
+	<label for="portfolio">Portfolio URL:</label>
+    <input type="url" id="portfolio" name="portfolio">
+	<button type="submit">Submit</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
